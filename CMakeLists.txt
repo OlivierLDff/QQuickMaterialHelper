@@ -8,6 +8,8 @@ CMAKE_MINIMUM_REQUIRED( VERSION 3.1.0 )
 # │                       CMAKE PROPERTIES                           │
 # └──────────────────────────────────────────────────────────────────┘
 
+message(WARNING "This library is DEPRECATED, you should move to Qaterial (https://github.com/OlivierLDff/Qaterial)")
+
 SET( QQUICKMATERIALHELPER_TARGET "QQuickMaterialHelper" CACHE STRING "Target Name" )
 SET( QQUICKMATERIALHELPER_PROJECT "QQuickMaterialHelper" CACHE STRING "Project Name")
 SET( QQUICKMATERIALHELPER_BUILD_SHARED OFF CACHE BOOL "Build as a shared library" )
@@ -50,7 +52,7 @@ MESSAGE( STATUS "------ ${QQUICKMATERIALHELPER_TARGET} End Configuration ------"
 
 SET(CMAKE_AUTOMOC ON)
 SET(CMAKE_AUTORCC ON)
-SET(CMAKE_CXX_STANDARD 11) 
+SET(CMAKE_CXX_STANDARD 11)
 
 # This shouldn't be required, why ??
 SET(CMAKE_FIND_ROOT_PATH_MODE_PROGRAM BOTH)
