@@ -1,5 +1,7 @@
-Qt Quick Material Helper
+Qt Quick Material Helper (DEPRECATED)
 ===============
+
+> THIS PROJECT ISN'T UPDATED ANYMORE, YOU SHOULD USE [Qaterial](https://github.com/OlivierLDff/Qaterial) AND [QaterialGallery](https://github.com/OlivierLDff/QaterialGallery). THEY ARE HARD FROM THIS LIBRARY WITH BETTER NAMING (SHORTER) AND BETTER QML MODULES ORGANIZATION.
 
 A collection of helper for QtQuick and QtQuickControls to build faster UI using Qml. This library contain multiple override of QtQuickControls (Material) to match better google guideline and allow more customization.
 
